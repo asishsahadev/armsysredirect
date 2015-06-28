@@ -1,6 +1,6 @@
 obj-m := sysredirect.o
-KERNEL_DIR := /media/kdev/Work1/Androidkernel/goldfish
-CCPATH := /media/kdev/Work1/Androidkernel/NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/
+KERNEL_DIR := /*Path to Android kernel source */
+CCPATH := /*Path to Cross-compiler dir*/
 CCPATH_EXT := $(CCPATH)arm-linux-androideabi-
 ARCH=arm
 SUBARCH=arm
