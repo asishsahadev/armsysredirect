@@ -1,6 +1,8 @@
 # armsysredirect
 Redirects system calls of Android Kernel
-This program is intended to produce a LKM has been made as a part of dissertation done on analysing system calls in Anrdoid kernel. This LKM redirects one system calls to another. 
+This was done as apart of thesis work done at Amrita Vishwa Vidyapeetham.
+
+This program is intended to produce a LKM for redirecting system calls in Anrdoid kernel. This LKM redirects one system calls to another. 
 
 The Makefile contained with this LKM contains the relevant instructions required for cross-compiling the program to ARM architecture as a module.
 
